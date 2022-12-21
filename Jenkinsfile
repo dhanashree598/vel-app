@@ -20,11 +20,11 @@ pipeline {
 			
 			}
 			
-			stage ('start') {
+			stage ('restart') {
 			
 				steps {
 				
-				    sh "mkdir test"
+				    sh "service httpd restart"
 				
 				}
 			
