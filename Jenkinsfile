@@ -9,21 +9,22 @@ pipeline {
 		
 		stages {
 		
-			stage ('Stage-1') {
+			stage ('deploy') {
 			
 				steps {
 				
-				    sh "mkdir test"
+				    sh "cp -r index.html /var/www/html"
+					sh "chmod -R 777 /var/www/html/index.html"
 				
 				}
 			
 			}
 			
-			stage ('Stage-2') {
+			stage ('start') {
 			
 				steps {
 				
-				    sh "mkdir folder"
+				    sh "service htttpd start"
 				
 				}
 			
