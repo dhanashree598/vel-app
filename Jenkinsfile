@@ -24,7 +24,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "service htttpd start"
+				    sh "mkdir test"
 				
 				}
 			
