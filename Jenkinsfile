@@ -13,7 +13,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "mkdir aws"
+				    sh "this is my 22Q1 branch"
 				
 				}
 			
@@ -23,7 +23,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "mkdir devops"
+				    sh "this is my 22Q1 branch"
 				
 				}
 			
