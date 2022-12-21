@@ -13,7 +13,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "mkdir test"
+				    sh "mkdir aws"
 				
 				}
 			
@@ -23,7 +23,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "mkdir folder1"
+				    sh "mkdir devops"
 				
 				}
 			
