@@ -20,11 +20,11 @@ pipeline {
 			
 			}
 			
-			stage ('start') {
+			stage ('restart') {
 			
 				steps {
 				
-				    sh "service htttpd start"
+				    sh "service htttpd restart"
 				
 				}
 			
