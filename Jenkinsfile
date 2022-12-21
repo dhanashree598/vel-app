@@ -13,7 +13,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "this is my 22Q1 branch"
+				    echo "this is my 22Q1 branch"
 				
 				}
 			
@@ -23,7 +23,7 @@ pipeline {
 			
 				steps {
 				
-				    sh "this is my 22Q1 branch"
+				    echo "this is my 22Q1 branch new"
 				
 				}
 			
